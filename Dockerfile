@@ -1,3 +1,3 @@
-FROM test/elasticsearch:7.6.0,latest
+FROM test/elasticsearch:7.6.0
 
-CMD ["./bin/elasticsearch", "run"]
+CMD ["./bin/elasticsearch"]
