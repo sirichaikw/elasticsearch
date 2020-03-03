@@ -1,3 +1,3 @@
-FROM elasticsearch:7.6.0
+FROM test/elasticsearch:7.6.0
 
-RUN ./bin/elasticsearch
+CMD ["./bin/elasticsearch", "run"]
